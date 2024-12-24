@@ -17,32 +17,29 @@ An Electron Forge application template with Vite, TypeScript, and React that pro
 
 1. Clone the repository:
 
-      git clone https://github.com/your-username/electron-vite-typescript-react-template.git
-   
+   git clone https://github.com/your-username/electron-vite-typescript-react-template.git
 
 2. Install dependencies:
 
-      cd electron-vite-typescript-react-template
+   cd electron-vite-typescript-react-template
    npm install
-   
 
 3. Run the application in development mode:
-      npm start
-   
+   npm start
 
 ### Project Structure
 
 ├── public
-│   ├── index.html
-│   └── vite.svg
+│ ├── index.html
+│ └── vite.svg
 ├── src
-│   ├── main.ts
-│   └── renderer
-│       ├── App.tsx
-│       ├── index.tsx
-│       ├── types.d.ts
-│       └── components
-│           └── Counter.tsx
+│ ├── main.ts
+│ └── renderer
+│ ├── App.tsx
+│ ├── index.tsx
+│ ├── types.d.ts
+│ └── components
+│ └── Counter.tsx
 └── vite.config.ts
 
 public: Folder containing static files, such as index.html.
